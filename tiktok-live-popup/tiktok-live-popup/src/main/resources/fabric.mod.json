@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tiktok-live-popup",
+  "version": "${version}",
+  "name": "TikTok Live Popup",
+  "description": "Popup chat TikTok Live di kiri bawah layar, notifikasi follow/gift/fans dengan sound custom, dan viewer & likes realtime.",
+  "authors": ["vedroaska"],
+  "contact": {
+    "sources": "https://github.com/ijustseen/take-your-minestream"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/tiktok-live-popup/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["tiktokpopup.TikTokPopupClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${fabric_loader_min}",
+    "minecraft": "${minecraft}",
+    "java": ">=${java_min}",
+    "fabric-api": "*"
+  }
+}
